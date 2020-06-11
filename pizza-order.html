@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Place your Order</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Get the best Pizzas in your locality at your doorstep">
+		<meta name="keywords" content="Pizza, Dominoz, la pinoz, Best Pizza">
+
+		<meta name="author" content="Dharmik Govani">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		
+		<header>
+			<h1>Best Pizza Ever!</h1>
+			<h3>Come and get some, Homie</h3>
+		</header>
+	
+		
+		<img src="https://cdn.dribbble.com/users/289924/screenshots/4185607/dribbble.gif" width="1350" height="500" alt="Taste my Pizza"/>
+
+		<main>
+			<section id="Contact-form">
+			    <h2>Place Order</h2>
+				<h4>Delievery</h4>
+				    <input name="delieveryMethod" type="radio" value="delievery" />Delievery<br/>
+				    <input name="delieveryMethod" type="radio" value="pick-Up" />Pick Up<br/>
+
+			    <h4>Address</h4>
+			    <form method="POST" action="place-order.php">
+				<input name="address1" placeholder="Adress Line1" class="lg-input"/><br/>
+				<input name="address2" placeholder="Adress Line2" class="lg-input"/><br/>
+
+				<input name="city" placeholder="City" class="sm-input"/>
+				<input name="state" placeholder="State" class="sm-input"/><br />
+				<input name="zip" placeholder="Zip code" class="sm-input"/><br />
+
+				<h4>Size</h4>
+				    <select name="size">
+					<option name="small">Small (Rs.200)</option>
+					<option name="medium">Medium (Rs.300)</option>
+					<option name="large">Large (Rs.450)</option>
+					<option name="monster">Monster (Rs.800)</option>
+
+				    </select>
+
+				<h4>Ingredients</h4>
+				<input name="ingredients" type="checkbox" value="pepperoni"/>Pepperoni<br />
+				<input name="ingredients" type="checkbox" value="salami"/>Salami<br />
+				<input name="ingredients" type="checkbox" value="bacon"/>Bacon<br/>
+				<input name="ingredients" type="checkbox" value="sausage"/>Italian Sausage<br/>
+				<input name="ingredients" type="checkbox" value="onion"/>Onions<br/>
+				<input name="ingredients" type="checkbox" value="peppers"/>Green Pepper
+				<br />
+				<br />
+				<button type="submit">PLACE ORDER</button>
+
+				
+								
+			    </form>
+			</section>
+
+		<footer>
+			<center> &copy; 2020 <br/>
+			<a href="#">Terms of Service</a>
+			</center>
+</main> 
+</body>
+</html>
